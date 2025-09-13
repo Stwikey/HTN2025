@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    17661317-3bb5-45b7-8c1d-0dab8f829322: ad270f2f-b6d6-ee2d-6fef-9123f7e4b539/d3560492b77be41b1a0a6b46bd77b8a1/Data/controlPlate.pvr
+  Assets:
+    - !<FileTexture/17661317-3bb5-45b7-8c1d-0dab8f829322>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 497
+        Height: 496
+  SourceHash: d3560492b77be41b1a0a6b46bd77b8a1
+  FileHash: 4063e5a6e8adead72652e766478656ed
+  NativePackageItems:
+    []

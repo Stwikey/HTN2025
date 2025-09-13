@@ -1,0 +1,238 @@
+- !<AssetImportMetadata/aef59985-30fb-0e3a-397c-be8468fe56ff>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 590f9bda-fa6d-4fc2-9ee0-24ab43916e5f
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 590f9bda-fa6d-4fc2-9ee0-24ab43916e5f
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> ca33c80a-613a-494a-9e74-0f2452f451cd
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/ca33c80a-613a-494a-9e74-0f2452f451cd>
+  SvgIcon: |
+    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M25 19C24.6645 19 24.3349 19.0251 24.0137 19.0732L22.751 21.207H20.123C19.6268 21.7861 19.2427 22.4552 19 23.1846L20.0527 25.0449L19.0098 26.8438C19.2626 27.5905 19.6646 28.2725 20.1826 28.8594L22.751 28.793L23.9258 30.9102C24.2749 30.9674 24.6337 31 25 31C25.3349 31 25.6636 30.9738 25.9844 30.9258L27.2471 28.793H29.877C30.3663 28.2219 30.7471 27.5634 30.9902 26.8457L29.9443 25.0449L30.999 23.1816C30.7468 22.4249 30.3422 21.7331 29.8184 21.1396L27.2471 21.207L26.0732 19.0879C25.7244 19.0308 25.3659 19 25 19ZM24.998 22.4287C26.4879 22.4287 27.6953 23.5799 27.6953 25C27.6951 26.42 26.4878 27.5713 24.998 27.5713C23.5083 27.5713 22.301 26.42 22.3008 25C22.3008 23.5798 23.5082 22.4287 24.998 22.4287Z" fill="#DEE6ED"/>
+    <path d="M7.75 3.27051C8.71649 3.27051 9.5 4.06846 9.5 5.05273C9.50006 6.01803 9.67778 6.64229 9.90625 7.05859C10.1263 7.45945 10.4554 7.78114 10.9609 8.04785C12.0775 8.63676 13.8748 8.87109 16.5 8.87109C17.8597 8.8711 19.1318 8.98739 20.2793 9.28516L20.373 9.29199L20.3818 9.3125C21.5244 9.62192 22.5408 10.116 23.3945 10.8613C25.0866 12.3386 25.7993 14.4975 25.9736 17.0566C25.6553 17.0203 25.3304 17 25 17C24.6737 17 24.351 17.0181 24.0332 17.0537L23.7168 17.0957L22.7764 17.2363L22.5068 17.6895L22.502 17.6123L22.4902 17.4023C22.3605 15.2667 21.8218 14.1827 21.1172 13.5674C20.8891 13.3682 20.6096 13.1882 20.2656 13.0332C20.1732 13.3236 20.139 13.7545 20.1592 14.2881C20.1804 14.8482 20.2588 15.4642 20.3496 16.041L20.5771 17.3564L20.5791 17.3594L20.5938 17.4434L20.8994 19.207H19.2031L18.6045 19.9053C18.0631 20.537 17.6204 21.2539 17.2979 22.0332L17.2158 21.5557L17.2139 21.5527C17.2133 21.5498 17.2122 21.5447 17.2109 21.5381C17.2084 21.5249 17.2046 21.5046 17.1992 21.4785C17.1883 21.426 17.1718 21.3497 17.1494 21.2578C17.1042 21.0723 17.0371 20.8298 16.9492 20.5918C16.8592 20.3479 16.7574 20.1379 16.6533 19.998C16.5798 19.8994 16.5355 19.8758 16.5244 19.8711H16.4785C16.4654 19.8778 16.4231 19.9046 16.3545 19.9971C16.2502 20.1378 16.1478 20.3485 16.0566 20.5928C15.9676 20.8315 15.899 21.0749 15.8525 21.2607C15.8295 21.3529 15.8121 21.4297 15.8008 21.4824C15.7952 21.5085 15.7917 21.5288 15.7891 21.542C15.7877 21.5486 15.7867 21.5537 15.7861 21.5566L15.7852 21.5596H15.7832L14.4551 29.2949L14.4541 29.2959C14.2666 30.3778 13.2894 31.1184 12.2246 30.9834L12.1211 30.9668C11.0209 30.7689 10.2864 29.7008 10.4805 28.5801L12.4082 17.4443L12.4102 17.4326L12.6504 16.0469L12.6826 15.8232C12.7575 15.2695 12.8217 14.5104 12.8408 13.7861C12.8517 13.373 12.8487 12.9792 12.8252 12.6475C12.8133 12.48 12.7961 12.3384 12.7773 12.2236C11.5214 12.0488 10.3527 11.7418 9.35156 11.2139C8.32617 10.673 7.45177 9.8905 6.85156 8.79688C6.2599 7.7187 6.00006 6.45748 6 5.05273C6 4.06848 6.78354 3.27055 7.75 3.27051Z" fill="#24BBB3"/>
+    <path d="M16.5 1C18.4589 1 20.0469 2.61738 20.0469 4.6123C20.0467 6.60711 18.4588 8.22363 16.5 8.22363C14.5413 8.22358 12.9533 6.60707 12.9531 4.6123C12.9531 2.61742 14.5412 1.00005 16.5 1Z" fill="#24BBB3"/>
+    </svg>
+
+  SetupScript:
+    code: ""
+  Description: |
+    CharacterController
+    Version 1.0.0
+    
+    The Character Controller Component is a modular, customizable movement system designed to
+    support various gameplay formats, including third-person, first-person, side-scroller, and
+    top-down perspectives. It provides a non-physics-based movement model with optional physics
+    interactions, allowing for smooth, responsive controls without physics body dependencies.
+    
+    
+    
+    API:
+    
+    move(direction: vec3): void - Moves the character in the specified direction. Y value will be ignored. To use this API to set character direction manually, please set Input Control Type to None.
+    stopMovement(): void - Immediately stops character movement.
+    setPosition(position: vec3): void - Teleports the character to a specific world position.
+    getPosition(): vec3 - Returns the current world position of the character.
+    setRotation(rotation: quat): void - Sets the character's facing rotation. Will rotate character only around y axis.
+    getRotation(): quat - Gets the character's current rotation.
+    getDirection(): vec3 - Returns the current movement direction.
+    setSprintEnabled(enabled: boolean): void - If true, enables sprinting speed, disables otherwise.
+    isSprinting(): boolean - Returns true if sprint is currently active.
+    setMoveSpeed(speed: number): void - Sets the character's base movement speed.
+    getMoveSpeed(): number - Returns the current base movement speed.
+    setSprintSpeed(speed: number): void - Sets the character's sprint speed.
+    getSprintSpeed(): number - Returns the current sprint speed.
+    isGrounded(): boolean - Returns true if the character is currently grounded.
+    isMoving(): boolean - Returns true if the character is currently moving.
+    getVelocity(): vec3 - Returns the character's current velocity vector.
+    setAutoFaceMovement(enabled: boolean): void - Enables or disables auto-facing toward movement direction.
+    getAutoFaceMovement(): boolean - Returns whether auto-facing movement is enabled.
+    setAcceleration(value: number): void - Sets the acceleration
+    getAcceleration(): number - Returns the acceleration
+    setDeceleration(value: number): void - Sets the deceleration
+    getDeceleration(): number - Returns the deceleration
+    setShowCollider(value: boolean): void - If true is set character's collider is visible
+    getShowCollider(): boolean - Returns whether character's collider is visible
+    setLockXAxis(enabled: boolean): void - Enables or disables movement along the X axis.
+    getLockXAxis(): boolean - Returns whether movement along the X axis is currently locked.
+    setLockYAxis(enabled: boolean): void - Enables or disables movement along the Y axis.
+    getLockYAxis(): boolean - Returns whether movement along the Y axis is currently locked.
+    setLockZAxis(enabled: boolean): void - Enables or disables movement along the Z axis.
+    getLockZAxis(): boolean - Returns whether movement along the Z axis is currently locked.
+    
+    
+    
+    API Events:
+    
+    onCollisionEnter: event1<CollisionEnterEventArgs, void> - Triggered when character starts colliding with another collider.
+    onCollisionStay(): event1<CollisionEnterEventArgs, void> - Triggered while character remains in collision.
+    onCollisionExit: event1<CollisionEnterEventArgs, void> - Triggered when character exits a collision.
+    onOverlapEnter(): event1<OverlapEnterEventArgs, void> - Triggered when character enters an overlap volume.
+    onOverlapStay(): event1<OverlapEnterEventArgs, void> - Triggered while character remains in overlap volumes.
+    onOverlapExit(): event1<OverlapEnterEventArgs, void> - Triggered when character exits an overlap volume.
+
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: d434d0c6-1525-4f3f-a279-adc6dbd7c20e
+  ExportUid: 508db24e-6d7a-43b6-b21e-9b326bc9145f
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    acceleration: false
+    airControl: true
+    autoFaceMovementDirection: false
+    colliderCenter: false
+    colliderHeight: false
+    colliderRadius: false
+    deceleration: false
+    enableTouchBlocking: false
+    gravity: true
+    groundCheckDistance: true
+    groundIsZero: false
+    idleAnimationAsset: false
+    idlePlaybackSpeed: false
+    inputControlType: false
+    joystickConfig: false
+    lockXAxis: false
+    lockYAxis: false
+    lockZAxis: false
+    minMoveDistance: true
+    moveAnimationAsset: false
+    moveMinCharacterSpeed: false
+    movePlaybackSpeed: false
+    moveSpeed: false
+    printWarningStatements: false
+    rotationSmoothing: false
+    showCollider: false
+    slopeLimit: false
+    sprintAnimationAsset: false
+    sprintMinCharacterSpeed: false
+    sprintPlaybackSpeed: false
+    sprintSpeed: false
+    stepHeight: false
+    trackingCamera: false
+    useAnimation: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> f9699a3b-e11f-4116-8de3-e5118b24e7d0
+  DeclarationFile: !<reference> 6aedcc82-4ef6-4ca9-a930-bed2b8c76598
+  DefaultScriptInputs:
+    - moveSpeed: !<float> 200.000000
+      sprintSpeed: !<float> 300.000000
+      acceleration: !<float> 500.000000
+      deceleration: !<float> 500.000000
+      minMoveDistance: 0.010000
+      slopeLimit: !<float> 45.000000
+      autoFaceMovementDirection: true
+      rotationSmoothing: 0.500000
+      lockXAxis: false
+      lockYAxis: false
+      lockZAxis: false
+      enableTouchBlocking: true
+      inputControlType: 1
+      trackingCamera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      joystickConfig:
+        joystickPositionTypeConfig: 1
+        joystickParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+        interactiveArea: !<reference.InteractionComponent> 00000000-0000-0000-0000-000000000000
+        sensitivity: 0.960000
+        deadZone: 0.100000
+        renderOrder: 200
+      gravity: !<float> -980.000000
+      airControl: 0.500000
+      showCollider: false
+      groundIsZero: true
+      groundCheckDistance: !<float> 1000.000000
+      stepHeight: !<float> 25.000000
+      colliderHeight: !<float> 75.000000
+      colliderRadius: !<float> 25.000000
+      colliderCenter: !<Vec3> {x: 0.000000, y: 65.000000, z: 0.000000}
+      useAnimation: true
+      idleAnimationAsset: !<reference.AnimationAsset> fe6619a2-9da5-45cf-8c7a-66958ef1b72e
+      idlePlaybackSpeed: !<float> 1.000000
+      moveMinCharacterSpeed: !<float> 20.000000
+      moveAnimationAsset: !<reference.AnimationAsset> 874f661d-a6a5-48ac-9a21-cf01b338b308
+      movePlaybackSpeed: 0.220000
+      sprintMinCharacterSpeed: !<float> 100.000000
+      sprintAnimationAsset: !<reference.AnimationAsset> 598b20c6-079c-4ac1-8d02-eda8ce8a8e07
+      sprintPlaybackSpeed: 0.450000
+      printWarningStatements: true
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"group_start", "label":"Movement"}'
+    - '// @input float moveSpeed = 100 {"hint":"Controls how fast the character moves", "widget":"spinbox", "min":0}'
+    - '// @input float sprintSpeed = 200 {"hint":"Controls how fast the character runs", "widget":"spinbox", "min":0}'
+    - '// @input float acceleration = 100 {"hint":"Determines how quickly the character reaches full speed", "widget":"spinbox", "min":0}'
+    - '// @input float deceleration = 100 {"hint":"Defines how quickly the character slows down when input stops", "widget":"spinbox", "min":0}'
+    - '// @input float minMoveDistance = 0.01 {"hint":"Defines the smallest movement distance before applying updates"}'
+    - '// @input float slopeLimit = 45 {"hint":"Limits movement on steep inclines to prevent unnatural climbing", "widget":"slider", "min":1, "max":90}'
+    - '// @input bool autoFaceMovementDirection = true {"hint":"Determines if the character automatically rotates to match the movement direction"}'
+    - '// @input float rotationSmoothing = 0.5 {"hint":"Defines how smoothly the character rotates towards movement direction, from 0 to 1.", "widget":"slider", "min":0, "max":1, "showIf":"autoFaceMovementDirection"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Constraints"}'
+    - '// @input bool lockXAxis {"hint":"Disables movement along the X axis"}'
+    - '// @input bool lockYAxis {"hint":"Disables movement along the Y axis"}'
+    - '// @input bool lockZAxis {"hint":"Disables movement along the Z axis"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Input Control"}'
+    - // @input bool enableTouchBlocking = true
+    - '// @input int inputControlType {"widget":"combobox", "values":[{"label":"None", "value":0}, {"label":"Joystick", "value":1}]}'
+    - '// @input Component.Camera trackingCamera {"showIf":"inputControlType", "showIfValue":1}'
+    - /*
+    - "@typedef JoystickInputControlConfig"
+    - '@property {int} joystickPositionTypeConfig {"widget":"combobox", "values":[{"label":"Free", "value":0}, {"label":"Left", "value":1}, {"label":"Right", "value":2}, {"label":"Custom", "value":3}]}'
+    - '@property {SceneObject} joystickParent {"showIf":"joystickPositionTypeConfig", "showIfValue":3}'
+    - '@property {Component.InteractionComponent} interactiveArea {"hint":"Interactive Area defines screen area where joystick may appear with Free position type. If configured, it appears only when a touch starts within this area. Otherwise, it can appear anywhere on screen.", "showIf":"joystickPositionTypeConfig", "showIfValue":0}'
+    - '@property {float} sensitivity = 0.96 {"widget":"slider", "min":0.1, "max":1}'
+    - '@property {float} deadZone = 0.1 {"widget":"slider", "min":0, "max":0.99}'
+    - "@property {int} renderOrder = 200 "
+    - "*/"
+    - '// @input JoystickInputControlConfig joystickConfig {"showIf":"inputControlType", "showIfValue":1}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Physics"}'
+    - '// @input float gravity = -980 {"hint":"Controls how fast the character falls", "widget":"spinbox", "max":0}'
+    - '// @input float airControl = 1 {"hint":"Determines how much movement influence the player has mid-air", "widget":"slider", "min":0, "max":1}'
+    - '// @input bool showCollider {"hint":"Makes character controller collider visible"}'
+    - '// @input bool groundIsZero {"hint":"Enables a virtual ground plane at Y = 0 for simplified grounding"}'
+    - '// @input float groundCheckDistance = 1000 {"widget":"spinbox", "min":0.01}'
+    - '// @input float stepHeight = 10 {"hint":"Maximum step height when climbing a step", "widget":"spinbox", "min":0.0001}'
+    - '// @input float colliderHeight {"hint":"Length of capsule", "widget":"spinbox", "min":0}'
+    - '// @input float colliderRadius {"hint":"Radius of capsule", "widget":"spinbox", "min":0.0001}'
+    - '// @input vec3 colliderCenter {"hint":"Offset of capsule"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Animation"}'
+    - // @input bool useAnimation = true
+    - '// @ui {"widget":"group_start", "label":"Animation Config", "showIf":"useAnimation"}'
+    - '// @ui {"widget":"group_start", "label":"Idle Animation"}'
+    - '// @input Asset.AnimationAsset idleAnimationAsset {"label":"Animation Asset"}'
+    - '// @input float idlePlaybackSpeed = 1 {"label":"Playback Speed", "widget":"spinbox", "min":0}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Move Animation"}'
+    - '// @input float moveMinCharacterSpeed = 10 {"label":"Min Character Speed", "widget":"spinbox", "min":0}'
+    - '// @input Asset.AnimationAsset moveAnimationAsset {"label":"Animation Asset"}'
+    - '// @input float movePlaybackSpeed = 1 {"label":"Playback Speed", "hint":"Playback speed for the animation when the character speed is at its minimum.", "widget":"spinbox", "min":0}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Sprint Animation"}'
+    - '// @input float sprintMinCharacterSpeed = 10 {"label":"Min Character Speed", "widget":"spinbox", "min":0}'
+    - '// @input Asset.AnimationAsset sprintAnimationAsset {"label":"Animation Asset"}'
+    - '// @input float sprintPlaybackSpeed = 1 {"label":"Playback Speed", "hint":"Playback speed for the animation when the character speed is at its minimum.", "widget":"spinbox", "min":0}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @input bool printWarningStatements = "true" {"label":"Print Warnings"}'

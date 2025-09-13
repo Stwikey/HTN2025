@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    eed17817-9138-491d-821e-8240c48a24da: 7b48c9de-d2c4-2f4e-ce6b-34306537184f/2da95b6cfc36d75c2bbdd69b3ea3320c/Data/controlDot.pvr
+  Assets:
+    - !<FileTexture/eed17817-9138-491d-821e-8240c48a24da>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 284
+        Height: 274
+  SourceHash: 2da95b6cfc36d75c2bbdd69b3ea3320c
+  FileHash: 0af695812a77774d107b93a158a97e00
+  NativePackageItems:
+    []

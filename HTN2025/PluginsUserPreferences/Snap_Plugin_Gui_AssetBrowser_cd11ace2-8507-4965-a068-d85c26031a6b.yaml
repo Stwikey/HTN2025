@@ -1,0 +1,10 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 4
+    values:
+      - GameController.lspkg/package.native
+      - SpecsCharacterController.lspkg/package.native
+      - SpectaclesInteractionKit.lspkg/package.native
+      - Surface Placement.lspkg/package.native
+  options: 4

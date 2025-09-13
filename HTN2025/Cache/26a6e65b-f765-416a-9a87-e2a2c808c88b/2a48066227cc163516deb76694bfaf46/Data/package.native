@@ -1,0 +1,94 @@
+- !<NativePackageDescriptor/184f68a8-0aca-4680-abac-5e1db46ba0c6>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 12
+    patch: 1
+    build: 25080420
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: |
+    CharacterController
+    Version 1.0.0
+    
+    The Character Controller Component is a modular, customizable movement system designed to
+    support various gameplay formats, including third-person, first-person, side-scroller, and
+    top-down perspectives. It provides a non-physics-based movement model with optional physics
+    interactions, allowing for smooth, responsive controls without physics body dependencies.
+    
+    
+    
+    API:
+    
+    move(direction: vec3): void - Moves the character in the specified direction. Y value will be ignored. To use this API to set character direction manually, please set Input Control Type to None.
+    stopMovement(): void - Immediately stops character movement.
+    setPosition(position: vec3): void - Teleports the character to a specific world position.
+    getPosition(): vec3 - Returns the current world position of the character.
+    setRotation(rotation: quat): void - Sets the character's facing rotation. Will rotate character only around y axis.
+    getRotation(): quat - Gets the character's current rotation.
+    getDirection(): vec3 - Returns the current movement direction.
+    setSprintEnabled(enabled: boolean): void - If true, enables sprinting speed, disables otherwise.
+    isSprinting(): boolean - Returns true if sprint is currently active.
+    setMoveSpeed(speed: number): void - Sets the character's base movement speed.
+    getMoveSpeed(): number - Returns the current base movement speed.
+    setSprintSpeed(speed: number): void - Sets the character's sprint speed.
+    getSprintSpeed(): number - Returns the current sprint speed.
+    isGrounded(): boolean - Returns true if the character is currently grounded.
+    isMoving(): boolean - Returns true if the character is currently moving.
+    getVelocity(): vec3 - Returns the character's current velocity vector.
+    setAutoFaceMovement(enabled: boolean): void - Enables or disables auto-facing toward movement direction.
+    getAutoFaceMovement(): boolean - Returns whether auto-facing movement is enabled.
+    setAcceleration(value: number): void - Sets the acceleration
+    getAcceleration(): number - Returns the acceleration
+    setDeceleration(value: number): void - Sets the deceleration
+    getDeceleration(): number - Returns the deceleration
+    setShowCollider(value: boolean): void - If true is set character's collider is visible
+    getShowCollider(): boolean - Returns whether character's collider is visible
+    setLockXAxis(enabled: boolean): void - Enables or disables movement along the X axis.
+    getLockXAxis(): boolean - Returns whether movement along the X axis is currently locked.
+    setLockYAxis(enabled: boolean): void - Enables or disables movement along the Y axis.
+    getLockYAxis(): boolean - Returns whether movement along the Y axis is currently locked.
+    setLockZAxis(enabled: boolean): void - Enables or disables movement along the Z axis.
+    getLockZAxis(): boolean - Returns whether movement along the Z axis is currently locked.
+    
+    
+    
+    API Events:
+    
+    onCollisionEnter: event1<CollisionEnterEventArgs, void> - Triggered when character starts colliding with another collider.
+    onCollisionStay(): event1<CollisionEnterEventArgs, void> - Triggered while character remains in collision.
+    onCollisionExit: event1<CollisionEnterEventArgs, void> - Triggered when character exits a collision.
+    onOverlapEnter(): event1<OverlapEnterEventArgs, void> - Triggered when character enters an overlap volume.
+    onOverlapStay(): event1<OverlapEnterEventArgs, void> - Triggered while character remains in overlap volumes.
+    onOverlapExit(): event1<OverlapEnterEventArgs, void> - Triggered when character exits an overlap volume.
+
+  SvgIcon: |
+    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M25 19C24.6645 19 24.3349 19.0251 24.0137 19.0732L22.751 21.207H20.123C19.6268 21.7861 19.2427 22.4552 19 23.1846L20.0527 25.0449L19.0098 26.8438C19.2626 27.5905 19.6646 28.2725 20.1826 28.8594L22.751 28.793L23.9258 30.9102C24.2749 30.9674 24.6337 31 25 31C25.3349 31 25.6636 30.9738 25.9844 30.9258L27.2471 28.793H29.877C30.3663 28.2219 30.7471 27.5634 30.9902 26.8457L29.9443 25.0449L30.999 23.1816C30.7468 22.4249 30.3422 21.7331 29.8184 21.1396L27.2471 21.207L26.0732 19.0879C25.7244 19.0308 25.3659 19 25 19ZM24.998 22.4287C26.4879 22.4287 27.6953 23.5799 27.6953 25C27.6951 26.42 26.4878 27.5713 24.998 27.5713C23.5083 27.5713 22.301 26.42 22.3008 25C22.3008 23.5798 23.5082 22.4287 24.998 22.4287Z" fill="#DEE6ED"/>
+    <path d="M7.75 3.27051C8.71649 3.27051 9.5 4.06846 9.5 5.05273C9.50006 6.01803 9.67778 6.64229 9.90625 7.05859C10.1263 7.45945 10.4554 7.78114 10.9609 8.04785C12.0775 8.63676 13.8748 8.87109 16.5 8.87109C17.8597 8.8711 19.1318 8.98739 20.2793 9.28516L20.373 9.29199L20.3818 9.3125C21.5244 9.62192 22.5408 10.116 23.3945 10.8613C25.0866 12.3386 25.7993 14.4975 25.9736 17.0566C25.6553 17.0203 25.3304 17 25 17C24.6737 17 24.351 17.0181 24.0332 17.0537L23.7168 17.0957L22.7764 17.2363L22.5068 17.6895L22.502 17.6123L22.4902 17.4023C22.3605 15.2667 21.8218 14.1827 21.1172 13.5674C20.8891 13.3682 20.6096 13.1882 20.2656 13.0332C20.1732 13.3236 20.139 13.7545 20.1592 14.2881C20.1804 14.8482 20.2588 15.4642 20.3496 16.041L20.5771 17.3564L20.5791 17.3594L20.5938 17.4434L20.8994 19.207H19.2031L18.6045 19.9053C18.0631 20.537 17.6204 21.2539 17.2979 22.0332L17.2158 21.5557L17.2139 21.5527C17.2133 21.5498 17.2122 21.5447 17.2109 21.5381C17.2084 21.5249 17.2046 21.5046 17.1992 21.4785C17.1883 21.426 17.1718 21.3497 17.1494 21.2578C17.1042 21.0723 17.0371 20.8298 16.9492 20.5918C16.8592 20.3479 16.7574 20.1379 16.6533 19.998C16.5798 19.8994 16.5355 19.8758 16.5244 19.8711H16.4785C16.4654 19.8778 16.4231 19.9046 16.3545 19.9971C16.2502 20.1378 16.1478 20.3485 16.0566 20.5928C15.9676 20.8315 15.899 21.0749 15.8525 21.2607C15.8295 21.3529 15.8121 21.4297 15.8008 21.4824C15.7952 21.5085 15.7917 21.5288 15.7891 21.542C15.7877 21.5486 15.7867 21.5537 15.7861 21.5566L15.7852 21.5596H15.7832L14.4551 29.2949L14.4541 29.2959C14.2666 30.3778 13.2894 31.1184 12.2246 30.9834L12.1211 30.9668C11.0209 30.7689 10.2864 29.7008 10.4805 28.5801L12.4082 17.4443L12.4102 17.4326L12.6504 16.0469L12.6826 15.8232C12.7575 15.2695 12.8217 14.5104 12.8408 13.7861C12.8517 13.373 12.8487 12.9792 12.8252 12.6475C12.8133 12.48 12.7961 12.3384 12.7773 12.2236C11.5214 12.0488 10.3527 11.7418 9.35156 11.2139C8.32617 10.673 7.45177 9.8905 6.85156 8.79688C6.2599 7.7187 6.00006 6.45748 6 5.05273C6 4.06848 6.78354 3.27055 7.75 3.27051Z" fill="#24BBB3"/>
+    <path d="M16.5 1C18.4589 1 20.0469 2.61738 20.0469 4.6123C20.0467 6.60711 18.4588 8.22363 16.5 8.22363C14.5413 8.22358 12.9533 6.60707 12.9531 4.6123C12.9531 2.61742 14.5412 1.00005 16.5 1Z" fill="#24BBB3"/>
+    </svg>
+
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 68
+  ExportUid: 508db24e-6d7a-43b6-b21e-9b326bc9145f
+  ComponentUid: d434d0c6-1525-4f3f-a279-adc6dbd7c20e
+  CurrentVisibility: Locked
+  MaxVisibility: Editable
+  ReadMe: !<reference> f9699a3b-e11f-4116-8de3-e5118b24e7d0
+  Instantiable: !<reference> 590f9bda-fa6d-4fc2-9ee0-24ab43916e5f
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: Character Controller
+    AssetId: 4vfl32KxtuakC3JCuwiTg0
+    Hash: fe07b917ffc20862cdc94e19edeed073
+    Version:
+      major: 1
+      minor: 0
+      patch: 0
+      build: 0
